@@ -1623,11 +1623,41 @@ form button:hover {
     }
     .education-box p {
         border-top: 1px solid rgba(0, 0, 0, 0.08);
-        font-size: 12px;
+        font-size: 14px;
         line-height: 24px;
     }
     .contact-left-content p {
         font-size: 15px;
+    }
+    .education-box{
+    padding: 15px;
+  }
+  .education-box:after{
+    top: 40px ;
+  }
+  .eductaion-box-heading:after {
+    left: -58.5px;
+    top: 16.8px;
+    }
+    .pfolio-content h2 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .skill-content p{
+        min-height: 165px;
+    }
+    .view-left {
+        padding-right: 10px;
+        padding-bottom: 0px;
+    }
+    .view-right h2 {
+        font-size: 22px;
+    }
+    .title{
+        padding-bottom: 10px ;
+    }
+    .tab-content-header{
+        padding-top: 0 ;
     }
 }
 
