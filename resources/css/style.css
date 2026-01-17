@@ -357,6 +357,7 @@ ul.social-icons li a:hover img {
     align-items: center;
     flex-direction: column;
     text-align: center;
+    overflow: hidden;
   }
   .right-upper h2 {
     color: #3c3e41;
@@ -1573,6 +1574,7 @@ form button:hover {
     }
     .view-right {
         width: 100% !important;
+        padding-left: 0 ;
     }
     .w-50 {
         width: 100% !important;
@@ -1658,6 +1660,21 @@ form button:hover {
     }
     .tab-content-header{
         padding-top: 0 ;
+    }
+    .upper-btns{
+        gap: 15px ;
+    }
+    .logo-main{
+        margin: 20px 0 0 20px;
+    }
+    ul.menus {
+      margin-top: 10px;
+    }
+    .view-right p{
+        font-size: 15px ;
+    }
+     .view-right a{
+        margin-top: 10px ;
     }
 }
 
